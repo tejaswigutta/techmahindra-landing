@@ -619,10 +619,10 @@ hr{
     width: 87%;
   }
 
-  #div-5-img {
-    /* width: 87%; */
-    width:70%;
-  }
+   /* #div-5-img {
+    width: 87%;
+    
+  }  */
 
   #div-5-text h1 {
     padding-left: 0rem;
@@ -642,7 +642,7 @@ hr{
     background-position-x: 50%;
     background-position-y: 50%;
     height: 24.375rem;
-    width: 22.8125rem;
+    width: 19.5rem;
     /* height: 37.625rem; */
     /* width: 32%; */
     /* background-repeat: no-repeat; */
