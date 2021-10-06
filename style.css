@@ -529,15 +529,17 @@ hr{
     border: 2px solid yellow;
   }
 
+
+
   #div-2-img img {
-    height: 320px;
-    width: 360px;
+    height:20.042rem;
+    width: 19.5rem;
   }
 
   #div-2 h1 {
     font-size: 1.548rem;
-    line-height: 2.1875rem;
-    font-size: 2.2291rem;
+    line-height:2.1875rem ;
+    /* font-size: 2.2291rem; */
     font-family: "Times New Roman";
   }
 
