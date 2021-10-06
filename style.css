@@ -581,7 +581,7 @@ hr{
 
   #div-3-paper img {
     height: 14.5132rem;
-    width: 21rem;
+    width: 19.5rem;
     float: top;
   }
 
@@ -592,7 +592,7 @@ hr{
 
   #div-3-text img {
     height: 3.0421rem;
-    width: 21rem;
+    width: 19.5rem;
     padding: 0px;
   }
 
@@ -620,7 +620,8 @@ hr{
   }
 
   #div-5-img {
-    width: 87%;
+    /* width: 87%; */
+    width:70%;
   }
 
   #div-5-text h1 {
