@@ -14,7 +14,7 @@ body {
 
 #content {
   width: 50%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-left: 16rem;
   padding-top: 3rem;
 }
@@ -113,7 +113,55 @@ body {
 
 #form {
   width: 50%;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#actual-form{
+  /* border:2px solid red; */
+  /* width:50%; */
+}
+
+#actual-form div{
+  font-size:22px;
+  line-height: 33px;
+  font-family: Poppins;
+  color:white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#form input{
+  width: 17rem;
+  height: 40px;
+  margin-bottom: 0.5rem;
+  padding-left:0.5rem;
+  color:#857e7e;
+}
+
+#form select{
+  width:17.8rem;
+  height:43px;
+  margin-bottom: 0.4rem;
+  padding-left:0.4rem;
+  color:#857e7e;
+
+}
+
+#form-button{
+  width:17.8rem;
+  height: 40px;
+  background: #0e3a60;
+  color: #ffffff;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  
 }
 
 #text-1 {
@@ -554,7 +602,7 @@ hr{
 #div-6-button {
     text-align: center;
     margin-top: 1rem;
-  }
+}
   
 #div-6-button button {
     background: #0e3a60;
@@ -610,13 +658,14 @@ hr{
     display:block;
     /* padding-top: 0rem; */
     padding:0;
-    border:2px solid green;
+    /* border:2px solid green; */
+    height:135vh;
   }
 
 
   #content {
     width: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1.5rem;
@@ -731,10 +780,68 @@ hr{
 
 
   #form {
-    width: 0%;
-    border: 2px solid yellow;
+    /* width: 0%; */
+    /* border: 2px solid yellow; */
   }
-
+  
+  #form {
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #actual-form{
+    /* border:2px solid red; */
+    /* width:50%; */
+    width:80%;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top:1rem;
+    padding-bottom: 2rem;
+    box-shadow: rgb(0 0 0 / 38%) 0px 0px 5px 0px;
+  }
+  
+  #actual-form div{
+    font-size:22px;
+    line-height: 33px;
+    font-family: Poppins;
+    color:white;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  #form input{
+    width: 17rem;
+    height: 40px;
+    margin-bottom: 0.5rem;
+    padding-left:0.5rem;
+    color:#857e7e;
+  }
+  
+  #form select{
+    width:17.8rem;
+    height:43px;
+    margin-bottom: 0.4rem;
+    padding-left:0.4rem;
+    color:#857e7e;
+  
+  }
+  
+  #form-button{
+    width:17.8rem;
+    height: 40px;
+    background: #0e3a60;
+    color: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    
+  }
 
 
   #div-2-img img {
@@ -915,15 +1022,11 @@ hr{
     flex-direction: column;
     background-size: cover;
   }
-  #content {
+  /* #content {
     width: 0%;
     border: 2px solid red;
     padding-left: 0rem;
     padding-top: 0rem;
-  }
+  } */
 
-  #form {
-    width: 0%;
-    border: 2px solid yellow;
-  }
 }
