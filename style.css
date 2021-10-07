@@ -618,6 +618,7 @@ hr{
     width: auto;
     border: 2px solid red;
     padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 1.5rem;
     margin-top:0rem;
   }
@@ -637,7 +638,7 @@ hr{
 
   #content-techM-img img{
     height: 6.2253rem;
-    width: 22.5rem;
+    width: 20rem;
   }
   
   #content-techM-img{
