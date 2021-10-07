@@ -803,46 +803,6 @@ hr{
     box-shadow: rgb(0 0 0 / 38%) 0px 0px 5px 0px;
   }
   
-  #actual-form div{
-    font-size:22px;
-    line-height: 33px;
-    font-family: Poppins;
-    color:white;
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  #form input{
-    width: 17rem;
-    height: 40px;
-    margin-bottom: 0.5rem;
-    padding-left:0.5rem;
-    color:#857e7e;
-  }
-  
-  #form select{
-    width:17.8rem;
-    height:43px;
-    margin-bottom: 0.4rem;
-    padding-left:0.4rem;
-    color:#857e7e;
-  
-  }
-  
-  #form-button{
-    width:17.8rem;
-    height: 40px;
-    background: #0e3a60;
-    color: #ffffff;
-    border-radius: 3px;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    border: none;
-    font-size: 16px;
-    
-  }
-
 
   #div-2-img img {
     height:20.042rem;
