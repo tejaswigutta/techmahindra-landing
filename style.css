@@ -14,14 +14,106 @@ body {
 
 #content {
   width: 50%;
-  /* border: 2px solid red; */
-  padding-left: 14rem;
+  border: 2px solid red;
+  padding-left: 16rem;
   padding-top: 3rem;
+}
+
+#content-div-1 h1{
+  font-family:Arial;
+  font-size: 2.3529rem;
+  line-height: 2.875rem;
+  font-weight: 700;
+  color:white;
+  margin:0rem;
+}
+
+#content-techM{
+  display:flex;
+}
+
+#content-techM-placed{
+  margin-right:1rem;
+}
+
+#content-techM-img img{
+  height: 4.375rem;
+  width: 15.875rem;
+}
+
+#content-techM-img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* border:2px solid purple; */
+}
+
+#content-div-2{
+  display:flex;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+#content-div-2-trained{
+  margin-right:1.5rem;
+  /* border:2px solid green; */
+  padding-top:0rem;
+}
+
+#content-div-2-trained h1{
+  font-size:2.2291rem;
+  color:white;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 3.625rem;;
+}
+
+
+#content-div-2-cl-img{
+  /* border: 2px solid red; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#content-div-2-cl-img img{
+  height: 3.625rem;
+  width: 14.125rem;
+}
+
+#content-div-3-role p{
+  font-size:1.4861rem;
+  color:white;
+  line-height: 2.375rem;
+  font-weight: 700;
+}
+
+#content-div-3-desc p{
+  font-family: Poppins;
+  font-size: 1.2384rem;
+  line-height:2rem;
+  font-weight: 400;
+  color:white;
+  margin: 0rem;
+  /* border: 2px solid red; */
+}
+
+#content-div-4{
+  margin-top: 3rem;
+}
+
+#content-div-4 p{
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.375rem;
+  font-size: 0.8669rem;
+  color:#ffffff;
 }
 
 #form {
   width: 50%;
-  /* border: 2px solid yellow; */
+  border: 2px solid yellow;
 }
 
 #text-1 {
@@ -513,16 +605,129 @@ hr{
 @media (max-width: 570px) {
   #intro {
     background: url("./imgs/div1.png"), #155680;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display:block;
+    /* padding-top: 0rem; */
+    padding:0;
+    border:2px solid green;
   }
 
+
   #content {
-    width: 0%;
+    width: auto;
     border: 2px solid red;
-    padding-left: 0rem;
-    padding-top: 0rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    margin-top:0rem;
   }
+
+  #content-div-1 h1{
+    font-family:Arial;
+    font-size: 1.6099rem;
+    line-height: 1.625rem;
+    font-weight: 700;
+    color:white;
+    margin:0rem;
+  }
+  
+  #content-techM{
+    display:block;
+  }
+
+  #content-techM-img img{
+    height: 6.2253rem;
+    width: 22.5rem;
+  }
+  
+  #content-techM-img{
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    display:block;
+    /* border:2px solid purple; */
+    margin-top:0.8rem;
+  }
+
+  #content-div-2{
+    /* display:flex;
+    margin-top: 0rem; */
+    margin-bottom: 1rem;
+    display:block;
+  }
+  
+  #content-div-2-trained{
+    /* margin-right:1.5rem;
+    padding-top:0rem;*/
+
+  } 
+  
+  #content-div-2-trained h1{
+    /* font-size:2.2291rem;
+    color:white;
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 3.625rem; */
+    line-height: 2.1875rem;
+    font-size: 1.548rem;
+    margin-bottom: 0rem;
+  }
+  
+  
+  #content-div-2-cl-img{
+    /* border: 2px solid red; */
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    display:block;
+  }
+  
+  
+  #content-div-2-cl-img img{
+    /* height: 3.625rem;
+    width: 14.125rem; */
+    height: 4.495rem;
+    width: 17.4375rem;
+  }
+
+  #content-div-3-role p{
+    /* font-size:1.4861rem;
+    color:white;
+    line-height: 2.375rem;
+    font-weight: 700; */
+    line-height: 1.75rem;
+    font-size: 1.2384rem;
+  }
+  
+  #content-div-3-desc p{
+    /* font-family: Poppins;
+    font-size: 1.2384rem;
+    line-height:2rem;
+    font-weight: 400;
+    color:white;
+    margin: 0rem; */
+    /* border: 2px solid red; */
+    line-height: 1.6875rem;
+    font-size: 1.1765rem;
+  }
+
+  #content-div-4{
+    margin-top: 0rem;
+    /* border: 2px solid red;
+    padding-top:0rem; */
+  }
+  
+  #content-div-4 p{
+    /* font-style: italic;
+    font-weight: 400;
+    line-height: 1.375rem;
+    font-size: 0.8669rem;
+    color:#ffffff; */
+    line-height: 1.25rem;
+    font-size: 0.8669rem;
+  }
+  
+
 
   #form {
     width: 0%;
@@ -695,6 +900,7 @@ hr{
     padding-bottom: 1rem;
   }
 
+  
 
 }
 
